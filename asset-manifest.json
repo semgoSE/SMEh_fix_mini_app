@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/SMEh_fix_mini_app/static/js/main.a10e778e.chunk.js",
+    "main.js.map": "/SMEh_fix_mini_app/static/js/main.a10e778e.chunk.js.map",
+    "runtime-main.js": "/SMEh_fix_mini_app/static/js/runtime-main.177c2f41.js",
+    "runtime-main.js.map": "/SMEh_fix_mini_app/static/js/runtime-main.177c2f41.js.map",
+    "static/css/2.09e62520.chunk.css": "/SMEh_fix_mini_app/static/css/2.09e62520.chunk.css",
+    "static/js/2.916dada6.chunk.js": "/SMEh_fix_mini_app/static/js/2.916dada6.chunk.js",
+    "static/js/2.916dada6.chunk.js.map": "/SMEh_fix_mini_app/static/js/2.916dada6.chunk.js.map",
+    "index.html": "/SMEh_fix_mini_app/index.html",
+    "precache-manifest.a2b60a40f53fc8e36464faa257e695f8.js": "/SMEh_fix_mini_app/precache-manifest.a2b60a40f53fc8e36464faa257e695f8.js",
+    "service-worker.js": "/SMEh_fix_mini_app/service-worker.js",
+    "static/css/2.09e62520.chunk.css.map": "/SMEh_fix_mini_app/static/css/2.09e62520.chunk.css.map",
+    "static/js/2.916dada6.chunk.js.LICENSE.txt": "/SMEh_fix_mini_app/static/js/2.916dada6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.177c2f41.js",
+    "static/css/2.09e62520.chunk.css",
+    "static/js/2.916dada6.chunk.js",
+    "static/js/main.a10e778e.chunk.js"
+  ]
+}
