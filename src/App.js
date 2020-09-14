@@ -1,6 +1,8 @@
 import React from 'react';
+import axios from 'axios';
 import bridge from '@vkontakte/vk-bridge';
 import {
+    ScreenSpinner,
     Avatar,
     Button,
     Div,
@@ -40,7 +42,13 @@ class App extends React.Component {
         console.log({image});
 
         if (image) {
-			this.setState({ image });
+            this.setState({ popout: <ScreenSpinner />})
+            axios.get("https://api-waste.hhos.ru/app.php?url=" + image).then((response) => {
+                console.log(response)
+                this.setState({ image: response.data, popout: null })
+        }
+            )
+			
 		}
 	};
 
@@ -48,7 +56,7 @@ class App extends React.Component {
 		const { user, image } = this.state;
 
 		return (
-            <View activePanel="main">
+            <View activePanel="main" popout={this.state.popout}>
                 <Panel id="main">
                     <PanelHeader>
 						{
